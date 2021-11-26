@@ -5,35 +5,21 @@ import {
   StatusBar,
   StyleSheet,
   Text,
-  useColorScheme,
   View,
 } from 'react-native';
-
+import Ola3 from './src/assets/login/ola_3.svg';
+import Ola2 from './src/assets/login/ola_2.svg';
+import Ola1 from './src/assets/login/ola_1.svg';
 const App = () => {
   return (
     <View>
+      <Ola3 styles={{width: 400}} />
+
       <Text>Hola</Text>
     </View>
   );
 };
 
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
+const styles = StyleSheet.create({});
 
 export default App;
