@@ -10,11 +10,11 @@ import {
 import Ola3 from './src/assets/login/ola_3.svg';
 import Ola2 from './src/assets/login/ola_2.svg';
 import Ola1 from './src/assets/login/ola_1.svg';
+import SVGatorComponent from './src/assets/Demo';
 const App = () => {
   return (
     <View>
-      <Ola3 styles={{width: 400}} />
-
+      <SVGatorComponent width={400} height={400} />
       <Text>Hola</Text>
     </View>
   );
