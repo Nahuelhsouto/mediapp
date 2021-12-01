@@ -54,7 +54,13 @@ export const Login = () => {
   };
 
   return (
-    <View style={{width: '100%', height: '100%', backgroundColor: '#f2f2f4'}}>
+    <View
+      style={{
+        width: '100%',
+        height: '100%',
+        backgroundColor: '#f2f2f4',
+        justifyContent: 'center',
+      }}>
       <Animated.View style={{opacity: 1, bottom: Ola, left: -5}}>
         <Ola3 height={600} width={400} viewBox="80 150 700 520" />
       </Animated.View>
