@@ -31,17 +31,17 @@ const App = () => {
   const bajanOlas = () => {
     Animated.timing(Ola, {
       toValue: 0,
-      duration: 500,
+      duration: 1500,
       useNativeDriver: false,
     }).start(),
       Animated.timing(Olas, {
         toValue: 0,
-        duration: 500,
+        duration: 1000,
         useNativeDriver: false,
       }).start(),
       Animated.timing(Olis, {
         toValue: -80,
-        duration: 500,
+        duration: 1500,
         useNativeDriver: false,
       }).start();
   };
@@ -52,8 +52,10 @@ const App = () => {
         width: '100%',
         height: '100%',
         backgroundColor: '#f2f2f4',
-
+        flex: 1,
+        alignItems: 'center',
         justifyContent: 'center',
+        alignContent: 'center',
       }}>
       <Animated.View style={{opacity: 1, bottom: Ola, left: -5}}>
         <Ola3 height={600} width={400} viewBox="80 150 700 520" />
@@ -61,14 +63,16 @@ const App = () => {
       <Animated.View style={{position: 'absolute', top: Olas}}>
         <Ola2 height={600} width={400} viewBox="80 175 700 520" />
       </Animated.View>
-      <Animated.View style={{position: 'absolute', bottom: -100}}>
+      <Animated.View style={{position: 'absolute', bottom: Olis}}>
         <Ola1 height={800} width={400} viewBox="80 210 700 520" />
       </Animated.View>
       <View
         style={{
           position: 'absolute',
+          alignItems: 'center',
+          justifyContent: 'center',
         }}>
-        <Logo height={500} width={550} viewBox="20 60 700 520" />
+        <Logo height={500} width={550} viewBox="-120 60 750 520" />
       </View>
       <View
         style={{
@@ -94,7 +98,7 @@ const App = () => {
 
 const styles = StyleSheet.create({
   buttL: {
-    width: '55%',
+    width: 200,
     height: 60,
     borderRadius: 5,
     alignItems: 'center',
@@ -108,7 +112,7 @@ const styles = StyleSheet.create({
     shadowColor: 'black',
   },
   buttR: {
-    width: '55%',
+    width: 200,
     height: 60,
     borderRadius: 5,
     alignItems: 'center',

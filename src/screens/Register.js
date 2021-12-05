@@ -23,7 +23,7 @@ export const Login = () => {
       </Animated.View>
       <Animated.View style={{position: 'absolute', top: Olas}}>
         <Ola2 height={600} width={400} viewBox="80 175 700 520" />
-      </Animated.View>
+      </Animated.View>react/
       <Animated.View style={{position: 'absolute', bottom: -100}}>
         <Ola1 height={800} width={400} viewBox="80 210 700 520" />
       </Animated.View>
