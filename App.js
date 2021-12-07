@@ -66,14 +66,15 @@ const App = () => {
       <Animated.View style={{position: 'absolute', bottom: Olis}}>
         <Ola1 height={800} width={400} viewBox="80 210 700 520" />
       </Animated.View>
-      <View
+      <Animated.View
         style={{
           position: 'absolute',
           alignItems: 'center',
           justifyContent: 'center',
+          opacity: Olas,
         }}>
         <Logo height={500} width={550} viewBox="-120 60 750 520" />
-      </View>
+      </Animated.View>
       <View
         style={{
           flex: 1,
