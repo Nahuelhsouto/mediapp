@@ -1,12 +1,5 @@
 import React, {useRef} from 'react';
-import {
-  View,
-  Text,
-  TouchableOpacity,
-  StyleSheet,
-  Animated,
-  
-} from 'react-native';
+import {View, Text, TouchableOpacity, StyleSheet, Animated} from 'react-native';
 
 export const Login = () => {
   return (
@@ -23,7 +16,8 @@ export const Login = () => {
       </Animated.View>
       <Animated.View style={{position: 'absolute', top: Olas}}>
         <Ola2 height={600} width={400} viewBox="80 175 700 520" />
-      </Animated.View>react/
+      </Animated.View>
+      react/
       <Animated.View style={{position: 'absolute', bottom: -100}}>
         <Ola1 height={800} width={400} viewBox="80 210 700 520" />
       </Animated.View>
@@ -40,12 +34,7 @@ export const Login = () => {
           alignItems: 'center',
         }}>
         <TouchableOpacity style={styles.buttL} onPress={bajanOlas}>
-          <Text style={{fontSize: 20, color: '#fafafa'}}>Log in</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.buttR} onPress={subenOlas}>
-          <Text style={{fontSize: 18, color: '#000', fontFamily: 'Poppins'}}>
-            Registrarse
-          </Text>
+          <Text style={{fontSize: 20, color: '#fafafa'}}>Iniciar</Text>
         </TouchableOpacity>
         <TouchableOpacity style={{bottom: 40}}>
           <Text>¿Necesita ayuda?</Text>
