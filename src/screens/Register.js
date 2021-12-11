@@ -47,7 +47,7 @@ export const Login = () => {
 const styles = StyleSheet.create({
   buttL: {
     width: '55%',
-    height: 60,
+    height: 50,
     borderRadius: 5,
     alignItems: 'center',
     justifyContent: 'center',
