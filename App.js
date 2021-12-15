@@ -71,7 +71,7 @@ const App = () => {
           position: 'absolute',
           alignItems: 'center',
           justifyContent: 'center',
-          opacity: Olas4517690121071324,
+          opacity: Olas,
         }}>
         <Logo height={500} width={550} viewBox="-120 60 750 520" />
       </Animated.View>
