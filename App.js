@@ -23,7 +23,7 @@ const App = () => {
       }).start(),
       Animated.timing(Olis, {
         toValue: -50,
-        duration: 1400,
+        duration: 1300,
         useNativeDriver: false,
       }).start();
   };
